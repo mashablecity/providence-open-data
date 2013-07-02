@@ -15,7 +15,7 @@ file "Providence_Tree_Inventory.geojson" => "Providence_Tree_Inventory.csv" do |
     {
       type: "Feature",
       geometry: geometry,
-      properties: tree.to_hash,
+      properties: {'marker-symbol' => 'park'},
     }
   }
 
